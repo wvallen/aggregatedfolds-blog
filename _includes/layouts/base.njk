@@ -13,12 +13,12 @@
   </header>
 
   <main>
-    {{ content | safe }}
+    {% block content %}{% endblock %}
   </main>
 
   <footer>
-    <p style="text-align: center; margin-top: 4rem; font-size: 0.8rem;">
-      © {{ "now" | date: "%Y" }} w — unfold eternally
+    <p style="text-align:center; font-size: 0.8rem; margin-top: 4rem;">
+      © {{ "now" | date: "%Y" }} W Vallen Graham — unfolding still
     </p>
   </footer>
 </body>
