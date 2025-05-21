@@ -1,7 +1,7 @@
 ---
 title: The First Fold
 date: 2025-05-20
-layout: layouts/post.njk
+layout: post.njk
 tags: post
 ---
 

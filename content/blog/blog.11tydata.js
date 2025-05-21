@@ -1,6 +1,3 @@
-export default {
-	tags: [
-		"posts"
-	],
-	"layout": "layouts/post.njk",
+module.exports = {
+  layout: "layouts/post.njk"
 };
