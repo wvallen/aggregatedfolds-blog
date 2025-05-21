@@ -1,3 +1,3 @@
 module.exports = {
-  layout: "home.njk"
+  layout: "base.njk"
 };
