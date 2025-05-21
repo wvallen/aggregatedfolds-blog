@@ -6,7 +6,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("post", function (collectionApi) {
     return collectionApi.getFilteredByGlob("content/blog/*.md");
   });
-
+eleventyConfig.setTemplateFormats(["md", "njk"]);
+  eleventyConfig.addGlobalData("layout", "base.njk");
   return {
     dir: {
       input: ".",
